@@ -23,8 +23,9 @@
 }
 .navbar_lists {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     list-style-type: none;
+    font-size: 24px;
 }
 
 
@@ -44,73 +45,138 @@
     margin: 10px;
     color: white;
 }
+.portfolio_esas > p{
+    font-size: 24px;
+}
 .portfolio_esas > h1{
-    font-size: 28px;
+    font-size: 50px;
 }
 .icon_xett {
     font-size: 22px;
-    position: relative;
 }
-.icon_xett > .xett{
-    width: 50px;
-    height: 3px;
-    background-color: white;
 
-}
- .icon_xett > .xett_iki{
-    width: 50px;
+
+.xett{
+    width: 65px;
     height: 3px;
     background-color: white;
 }
+
+
 .icon_xett{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+
 .Portfolio_iki{
     width: 100%;
-    height: 1000px;
     text-align: center;
     padding-top: 0px;
 }
 .Portfolio_iki_esas > h2{
-    font-size: 30px;
+    font-size: 50px;
+    margin-top: 60px;
 }
 .Portfolio_iki_esas{
     width: 100%;
     margin: 0 auto;
 }
-.Portfolio_iki_esas > .icon_xett_iki > i,.xett {
-    color: red;
+.icon_xett_iki  i{
+    color: rgb(44, 62, 80);
 }
 .icon_xett_iki > div{
-    background-color: red !important;
+    background-color: rgb(44, 62, 80);
+}
+
+.Portfolio_uc_esas{
+    width: 100%;
+    padding: 35px;
 }
 .Portfolio_uc_esas_1{
+    width: 100%;
     display: flex;
-    gap: 10px 10px;
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px 15px;
+}
+.Portfolio_uc_esas_1 > div{
+    width: 350px;
 }
 .Portfolio_uc_esas_1 img{
     width: 100%;
-    height: 100%;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-
 .About{
     width: 100%;
     height: 600px;
-    background-color: cyan;
+    background-color: rgb(26, 188, 156);
     text-align: center;
-    padding: 90px;
+    padding: 50px;
 
 }
 .icon_xett_uc > div{
-    background-color: blueviolet !important;
+    background-color: white;
 }
 .icon_xett_uc > i{
-    color: blue;
+    color:white;
 }
+.About_esas > h2{
+    font-size: 50px;
+    color: white;
+}
+.About_yazi{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.About_yazi_1{
+    width: 400px;
+    text-align: left;
+    font-size: 26px;
+}
+.continer > button{
+    padding: 15px;
+    background-color: rgb(26, 188, 156);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+}
+.continer >button:hover{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    color: black;
+}
+.continer > i:hover{
+    color: black !important;
+
+}
+
+
+.contact{
+    width: 100%;
+    text-align: center;
+}
+.contact_1 > form > input,textarea{
+     display: block;
+     border: 0;
+     border-bottom: 1px solid black;
+     padding: 20px;
+     margin: 15px auto;
+     width: 40%;
+
+}
+..contact_1 > button{
+    padding: 15px;
+}
+
+
